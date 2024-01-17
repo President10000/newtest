@@ -1,0 +1,164 @@
+.main-div {
+  /* display: flex; */
+  width: 335.36px;
+  height: 727.04px;
+  flex-shrink: 0;
+  border-radius: 34.133px;
+  border: 0.853px solid #bfbfbf;
+  background: #18192b;
+  overflow: hidden;
+  box-shadow: 0px 85.333px 85.333px 0px rgba(0, 0, 0, 0.25);
+}
+.TopNavigation {
+  display: flex;
+  width: 335.36px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.707px;
+}
+.StatusBar {
+  display: flex;
+  width: 335.36px;
+  height: 50.347px;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* left div code  */
+.StatusBar .left-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.827px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.StatusBar .left-div > div {
+  display: flex;
+  width: 46.08px;
+  height: 17.92px;
+  padding: 0.853px 0px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20.48px;
+  color: #ffff;
+}
+
+/* center div code */
+.StatusBar .center-div {
+  display: flex;
+  padding-top: 8.533px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+.StatusBar .center-div > div {
+  display: flex;
+  width: 106.667px;
+  height: 31.573px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6.827px;
+  border-radius: 85.333px;
+  background: var(--System-Background-Dark-Base-Primary, #000);
+}
+
+/* right div code */
+.StatusBar .right-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.827px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.StatusBar .right-div > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 6.827px;
+  color: #ffff;
+}
+
+.TopNavigation .TopNavigation-content {
+  height: 35.84px;
+  align-self: stretch;
+  color: #ffffff99;
+}
+.TopNavigation .TopNavigation-content .left_Accessory {
+  display: flex;
+  width: 110.933px;
+  height: 35.84px;
+  padding: 7.68px 7.68px 7.68px 13.653px;
+  align-items: center;
+  gap: 4.267px;
+  flex-shrink: 0;
+}
+
+.left_Accessory .left-icon {
+  width: 37.547px;
+  height: 37.547px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.left_Accessory .left-icon .polygone {
+  width: 37.547px;
+  height: 37.547px;
+  flex-shrink: 0;
+  fill: linear-gradient(
+    135deg,
+    rgba(15, 85, 232, 0.1) 0%,
+    rgba(157, 223, 243, 0.1) 100%
+  );
+  stroke-width: 0.853px;
+  stroke: rgba(255, 255, 255, 0.5);
+}
+.left_Accessory .left-icon .component {
+  display: flex;
+  width: 20.48px;
+  height: 20.48px;
+  padding: 0.707px 0px 1.773px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #ffffff99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.SearchField {
+  display: flex;
+  width: 225.28px;
+  height: 20.48px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.947px;
+  flex-shrink: 0;
+}
+.SearchField > div {
+  display: flex;
+  width: 211.627px;
+  padding: 8.533px 13.653px;
+  align-items: center;
+  gap: 8.533px;
+  flex-shrink: 0;
+  border-radius: 25.6px;
+  border: 0.853px solid #fff;
+  background: linear-gradient(146deg, #22283e 9.7%, #171827 86.02%);
+  box-shadow: 3.413px 3.413px 8.533px 0px rgba(0, 0, 0, 0.2);
+}
+.SearchField .input {
+  flex: 1 0 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-feature-settings: "case" on;
+  font-family: SF Pro Text;
+  font-size: 11.093px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.773px; /* 169.231% */
+  letter-spacing: -0.348px;
+  background-color: transparent;
+}

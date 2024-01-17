@@ -1,0 +1,13 @@
+/* FILEPATH: /home/vishal/Desktop/Projects/assignment/src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/*  CSS code goes here */

@@ -1,0 +1,57 @@
+.maindiv {
+  /* width: 245.76px; */
+  width: 208.76px;
+  height: 46.08px;
+  display: flex;
+  justify-content: space-between;
+}
+.maindiv .content {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: SF Pro;
+  font-size: 14.507px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: normal;
+}
+
+.left-icon {
+  width: 37.547px;
+  height: 37.547px;
+  flex-shrink: 0;
+  position: relative;
+}
+.left-icon .polygone {
+  width: 37.547px;
+  height: 37.547px;
+  flex-shrink: 0;
+  fill: linear-gradient(
+    135deg,
+    rgba(15, 85, 232, 0.1) 0%,
+    rgba(157, 223, 243, 0.1) 100%
+  );
+  stroke-width: 0.853px;
+  stroke: rgba(255, 255, 255, 0.5);
+}
+.left-icon .component {
+  display: flex;
+  width: 20.48px;
+  height: 20.48px;
+  padding: 0.707px 0px 1.773px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #ffffff99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.chevron {
+  color: #fff;
+  text-align: right;
+  font-family: SF Pro;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: normal;
+}

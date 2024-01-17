@@ -1,0 +1,43 @@
+.notch {
+  position: relative;
+  width: 133.12px;
+  height: 31.573px;
+  flex-shrink: 0;
+  fill: linear-gradient(180deg, #313a5b 0%, #21273d 100%);
+  stroke-width: 0.853px;
+  stroke: rgba(134, 113, 236, 0.2);
+  filter: drop-shadow(0px 0.853px 0px rgba(255, 255, 255, 0.25));
+}
+.notch .notch-img {
+  width: 139.947px;
+  height: 31.573px;
+  flex-shrink: 0;
+  position: relative;
+}
+.notch .notch-content {
+  color: #fff;
+  font-family: SF Pro;
+  font-size: 11.093px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  left: 47.5px;
+}
+.tabbar {
+  background: linear-gradient(#313a5b, #21273d);
+  border-top-left-radius: 17.067px;
+  border-top-right-radius: 17.067px;
+  border-bottom-left-radius: 34.133px;
+  border-bottom-right-radius: 34.133px;
+  /* border-radius: 34.133px; */
+  padding-top: 6px;
+}
+.tabbar .tabbar-content {
+  display: flex;
+  width: 335.235px;
+  padding: 3.413px 12.8px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
